@@ -1,0 +1,42 @@
+Testing Printing Function
+0.0
+5.0x^2
+5.0x^2 - 4.0x + 3.0
+5.0x^2 + 4.0x + 3.0
+-2.5x^3 + 5.0x^2 + 4.0x + 3.0
+-7.2
+-3.0x^5 - 7.2
+Constructor Tests
+0.0
+5.2
+3.7x^29
+4.6x^13
+Assignment Tests
+5.0x^29 + 6.0x^28 + 7.0x^17 + 8.0x + 9.0
+Degree: 29
+-2.0x^29 - 2.5x^28 - 3.0x^17 - 3.5x - 4.0
+Add To Tests
+5.0x^29 + 6.0x^28 + 7.0x^17 + 8.0x - 3.0
+2.0x^29 - 2.5x^28 - 3.0x^17 - 3.5x - 4.0
+Next Term Tests
+Next term after 29 is 0
+Next term after 20 is 28
+Term before 20 is 17
+Next term after 5 is 17
+Term before 5 is 1
+Term before 0 is 4294967295
+Is Zero Test
+5.0x^29 + 6.0x^28 + 7.0x^17 + 8.0x - 3.0 is not zero.
+0.0 is zero.
+Math Tests
+5.0x^2 + 4.0x + 3.0
+If x=4, f(x)=99.000000
+If x=2.5, f(x)=44.250000
+If x=-3.7, f(x)=56.650000
+Derivate: 10.0x + 4.0
+Antiderivative: 1.7x^3 + 2.0x^2 + 3.0x
+DefInt(f) from 0 to 5.7: 390.735000
+Math Operator Tests
+(5.0x^2 + 4.0x + 3.0) + (7.2x^2 - 11.3x) = 12.2x^2 - 7.3x + 3.0
+(5.0x^2 + 4.0x + 3.0) - (7.2x^2 - 11.3x) = -2.2x^2 + 15.3x + 3.0
+(5.0x^2 + 4.0x + 3.0) * (7.2x^2 - 11.3x) = 36.0x^4 - 27.7x^3 - 23.6x^2 - 33.9x

@@ -1,0 +1,42 @@
+QUESTION 1 - Will this code run?
+ANSWER:
+
+    // Header file
+    class myClass {
+        public:
+            static int count = 0;
+        ...
+    }
+
+    // Implementation file
+    #include "myClass.h"
+
+    int main {
+        myClass obj;
+        obj.count++;
+        cout << obj.count << endl;
+        return 0;
+    }
+
+QUESTION 2 - What are the invariants of the bag class (static array)?
+ANSWER:
+
+QUESTION 3 - Will there be an error when this function is called?
+ANSWER:
+
+    void bag::operator +=(const bag& addend) {
+        size_type i;    // An array index
+        assert(size( ) + addend.size( ) <= CAPACITY);
+        for (i = 0; i < addend.used; ++i) {
+            data[used] = addend.data[i];
+            ++used;
+        }
+    }
+
+    bag1 += bag1;
+
+QUESTION 4 - What is the difference between a global and static variable?
+ANSWER: global vars are available to all funcs and classes
+
+QUESTION 5 - Why do we use typedef statements when implementing ADTs?
+ANSWER: to prevent the compiler from calling libraries multiple times and getting confused

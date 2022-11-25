@@ -1,0 +1,20 @@
+/* 
+* Name: Xavier Kuehn
+* Date: 04/06/2022
+* Title: Lab2 – Steps 5 and 6
+* Description: observations of telnet usage; comparing ports
+*/
+
+Step 5: 
+- After connecting to gaia.cs.umass.edu, and entering the GET and Host, a lot of HTML code shows in the terminal
+- the name of the file that is being retrieved is /kurose_ross/interactive/index.php
+- the client is running HTML 1.1
+- could not find images within HTML, unclear what formats of text are used
+
+Step 6:
+- connecting to a host using 80 as the ports, telnet host 80, works as in Step 5
+- other ports tried:
+    - 23 gets no response and the process had to be terminated
+    - 3389 gets no response and the process had to be terminated
+    - 178 gets no response and the process had to be terminated
+    - all cases: Operation timed out...No route to host...Unable to connect to remote host

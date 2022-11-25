@@ -1,0 +1,13 @@
+Xavier Kuehn
+COEN 79
+Assignment #1
+4/7/22
+
+1. Answer the following questions:
+
+    What is procedural abstraction?
+    - when we pretend that we don't know how a function is implemented (i.e. only know precondition and postcondition)
+    Mention an approach for detecting invalid function input data at an early point.
+    - use an assert statement (#include <cassert>) to check inputs given to functions are valid
+
+2. What is the complexity of the algorithm
